@@ -94,6 +94,19 @@ Hi, I’m **Fatma Elik**, a multidisciplinary professional passionate about leve
 
 ![Disaster Classification Output](https://github.com/user-attachments/assets/487a47ff-7616-4fe9-a95c-050e2b6a1b4f)
 
+## 4. Toronto-3D: A Large-Scale Mobile LiDAR Dataset
+- **Dataset**: Toronto-3D.
+- **Task**: Semantic segmentation of urban roadways using 3D LiDAR data.
+- **Features**:
+  - **Scale**: Over 78 million points with high spatial resolution (~1,600 points/m²).
+  - **Annotations**: 8 semantic classes (Ground, Road, Road Markings, Natural, Building, Utility Line, Vehicles, Others).
+  - **Data Source**: Captured via a Velodyne HDL-32E LiDAR sensor in downtown Toronto.
+- **Approach**:
+  - Tested deep learning models for semantic segmentation.
+  - Compared performance on different urban elements such as roads, buildings, and vegetation.
+- **Result**: Contributed to advancements in LiDAR-based semantic segmentation and urban environment understanding.
+
+![Toronto-3D Output](link_to_your_image_or_gif)
 ---
 
 
