@@ -62,7 +62,7 @@ Hi, I’m **Fatma Elik**, a multidisciplinary professional passionate about leve
 - **Dataset**: Satellite imagery from Maxar, focused on the Kahramanmaraş earthquake region.
 - **Result**: Successfully segmented damaged buildings and roads from satellite images.
 
-![Damage Segmentation Output](link_to_your_image_or_gif)
+![Damage Segmentation Output](https://github.com/user-attachments/assets/616827d2-dc10-4d22-ba1b-4faa547ff051)
 
 ---
 
@@ -78,7 +78,8 @@ Hi, I’m **Fatma Elik**, a multidisciplinary professional passionate about leve
   3. Results are displayed interactively on a map for better disaster response and planning.
 - **Result**: An interactive platform for disaster detection and rapid intervention planning.
 
-![Disaster Detection Platform Output](link_to_your_image_or_gif)
+![resim2](https://github.com/user-attachments/assets/f2cb7b19-735d-4e91-bd0a-5449a70764bc)
+
 
 ---
 
@@ -91,7 +92,7 @@ Hi, I’m **Fatma Elik**, a multidisciplinary professional passionate about leve
   - Images were preprocessed and resized to suit each model's requirements.
 - **Result**: Achieved effective classification of disasters, highlighting the advantages and limitations of transfer learning methods.
 
-![Disaster Classification Output](link_to_your_image_or_gif)
+![Disaster Classification Output](https://github.com/user-attachments/assets/487a47ff-7616-4fe9-a95c-050e2b6a1b4f)
 
 ---
 
