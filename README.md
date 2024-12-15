@@ -95,16 +95,50 @@ Hi, I’m **Fatma Elik**, a multidisciplinary professional passionate about leve
 ![Disaster Classification Output](https://github.com/user-attachments/assets/487a47ff-7616-4fe9-a95c-050e2b6a1b4f)
 
 ## 4. Toronto-3D: A Large-Scale Mobile LiDAR Dataset
-- **Dataset**: Toronto-3D.
-- **Task**: Semantic segmentation of urban roadways using 3D LiDAR data.
-- **Features**:
+
+## **Dataset**
+- **Name**: Toronto-3D
+- **Purpose**: Semantic segmentation of urban roadways using 3D LiDAR data.
+- **Key Features**:
   - **Scale**: Over 78 million points with high spatial resolution (~1,600 points/m²).
-  - **Annotations**: 8 semantic classes (Ground, Road, Road Markings, Natural, Building, Utility Line, Vehicles, Others).
-  - **Data Source**: Captured via a Velodyne HDL-32E LiDAR sensor in downtown Toronto.
-- **Approach**:
-  - Tested deep learning models for semantic segmentation.
-  - Compared performance on different urban elements such as roads, buildings, and vegetation.
-- **Result**: Contributed to advancements in LiDAR-based semantic segmentation and urban environment understanding.
+  - **Annotations**: 8 semantic classes:
+    - Ground
+    - Road
+    - Road Markings
+    - Natural (trees, grass)
+    - Building
+    - Utility Line
+    - Vehicles
+    - Others
+  - **Data Source**: Captured via a **Velodyne HDL-32E** LiDAR sensor in downtown Toronto.
+
+## **Task**
+Semantic segmentation of urban LiDAR point clouds into predefined categories, enabling better understanding of urban environments.
+
+## **Approach**
+1. **Deep Learning Models Tested**:
+   - **RandLA-Net**:
+     - A lightweight neural network designed for efficient large-scale point cloud segmentation.
+     - Uses local feature aggregation and attentive pooling mechanisms for accurate results.
+   - **KPConv**:
+     - A kernel-based convolutional network designed to process unordered 3D point clouds.
+     - Adapts convolutions to the irregular structure of LiDAR data.
+2. **Data Processing**:
+   - The LiDAR data was preprocessed to include XYZ coordinates, intensity, and semantic labels.
+   - Segment-wise accuracy was compared across urban elements like roads, buildings, and vegetation.
+3. **Training Setup**:
+   - Models were trained with **cross-entropy loss** for multi-class segmentation.
+   - **Data augmentation** techniques, such as rotation, scaling, and flipping, were applied to improve generalization.
+
+## **Results**
+- **Performance**: Models achieved high accuracy across semantic classes, with notable success in identifying roadways and buildings.
+- **Contribution**:
+  - Advanced the field of LiDAR-based semantic segmentation.
+  - Improved the understanding of urban environments for applications like smart city planning, autonomous driving, and infrastructure management.
+
+## **Conclusion**
+Toronto-3D, combined with state-of-the-art deep learning models like RandLA-Net and KPConv, has demonstrated the potential of LiDAR data in accurately segmenting complex urban landscapes. This dataset and approach contribute significantly to both research and practical applications in urban development and autonomous navigation.
+
 
 ![Toronto-3D Output](link_to_your_image_or_gif)
 ---
